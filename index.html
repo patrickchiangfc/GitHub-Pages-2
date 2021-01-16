@@ -74,6 +74,7 @@
     <p>Tell me about you!</p>
     <form>
       <table>
+        
         <tr>
          <th><label for="fname">First name:</label></th>
          <th><label for="lname">Last name:</label></th>
@@ -84,7 +85,26 @@
          <td><input type="text" id="lname" name="lname"></td>
           <td><input type="email" id="email" name="email"></td>
         </tr>
+        
+        <tr>
+         <th><label for="favcolor">Select your favorite color:</label></th>
+         <th><label for="pwd">Now type it like a password:</label></th>
+         <th><label for="gender">Gender:</label></th>
+        </tr>
+        <tr>
+          <td><input type="color" id="favcolor" name="favcolor"></td>
+          <td><input type="password" id="pwd" name="pwd"></td>
+          <td><input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label></td>
+        </tr>
+        
       </table>
+      <input type="submit" value="Submit">
+      <input type="reset">
     </form>
   </footer> 
 </body>
